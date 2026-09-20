@@ -4086,7 +4086,7 @@ async function analyzeVoice() {
 
     const response =
       await fetch(
-        'http://localhost:3000/api/analyze',
+        'https://voiceguard-backend-ck8d.onrender.com/api/analyze',
         {
           method: 'POST',
           body: formData
@@ -6698,7 +6698,7 @@ async function analyzeScamCall() {
 
       const response =
         await fetch(
-          'http://localhost:3000/api/analyze',
+          'https://voiceguard-backend-ck8d.onrender.com/api/analyze',
           {
             method: 'POST',
             body: formData
@@ -7203,3 +7203,4 @@ document.addEventListener(
 
   }
 );
+
